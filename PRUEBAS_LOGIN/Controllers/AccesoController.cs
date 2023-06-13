@@ -16,7 +16,7 @@ namespace PRUEBAS_LOGIN.Controllers
     public class AccesoController : Controller
     {
 
-        static string cadena = "Data Source=(local);Initial Catalog=BD_TOY;Integrated Security=true";
+        static string cadena = "Data Source=TOYYODABD.mssql.somee.com;Initial Catalog=TOYYODABD;User ID=ragcorp_SQLLogin_2;Password=msuzuk1rjq;Persist Security Info=False;";
 
 
 
