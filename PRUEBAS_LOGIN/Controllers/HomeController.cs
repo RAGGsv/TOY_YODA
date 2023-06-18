@@ -37,6 +37,11 @@ namespace PRUEBAS_LOGIN.Controllers
             return RedirectToAction("Login", "Acceso");
         }
 
+        public ActionResult Pais()
+        {
+
+            return View();
+        }
 
 
 
