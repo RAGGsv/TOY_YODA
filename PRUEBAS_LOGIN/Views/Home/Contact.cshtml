@@ -1,18 +1,23 @@
 ﻿@{
-    ViewBag.Title = "Contacto";
+    ViewBag.Title = "Sucursales";
 
 }
 <h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
-
-<address>
-    UES EL SALVADOR<br />
-    SAN SALVADOR<br />
-    <abbr title="Phone">Tel:</abbr>
-    +503 2222-2222
-</address>
-
-<address>
-    <strong>Soporte:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<div class="card-header">
+    <span><b>Lista de Sucursales</b></span>
+    <button class="btn btn-primary btn-sm btn-block col-md-3 float-right" type="button" id="new_emp_btn"><span class="fa fa-plus"></span> Agregar Sucursal</button>
+</div>
+<table id="table" class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Id Sucursal</th>
+            <th>Sucursal</th>
+            <th>Ciudad</th>
+        </tr>
+    </thead>
+    <tbody>
+    <th>001</th>
+    <th>TOYYODA Central</th>
+    <th>San Salvador</th>
+    </tbody>
+</table>
