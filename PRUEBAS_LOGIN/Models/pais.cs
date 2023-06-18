@@ -8,8 +8,7 @@ namespace PRUEBAS_LOGIN.Models
     public class Usuario
     {
         public int idPais { get; set; }
-        public string pais { get; set; }
-     
+        public string pais { get; set; }     
 
     }
 }
