@@ -1,18 +1,23 @@
 ﻿@{
-    ViewBag.Title = "Contacto";
+    ViewBag.Title = "Sucursales";
 
 }
 <h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    UES EL SALVADOR<br />
-    SAN SALVADOR<br />
-    <abbr title="Phone">Tel:</abbr>
-    +503 2222-2222
-</address>
+<div>
 
-<address>
-    <strong>Soporte:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+    @Html.DropDownList("Pais", new SelectList(ViewBag.data, "idPais", "nombrePais"));
+</div>
+
+
+@model PRUEBAS_LOGIN.Models.Countries
+@{
+    Layout = null;
+}
+<div style="padding:10px;">
+    @using (Html.BeginForm())
+    {
+        <span>Country:</span> @Html.DropDownListFor(m => m.id, Model.pais, "--Please select a country--", new { @class = "btn btn-default" })
+        <br />
+        <br />
+        <button class="btn btn-primary">Submit</button>

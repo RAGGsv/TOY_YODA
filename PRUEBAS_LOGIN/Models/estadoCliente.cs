@@ -12,10 +12,10 @@ namespace TOY_YODA.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class usuario
+    public partial class estadoCliente
     {
-        public int idusuario { get; set; }
-        public string correo { get; set; }
-        public string clave { get; set; }
+        public int idEstadoCliente { get; set; }
+        public string estadoCliente1 { get; set; }
+        public Nullable<int> idCliente { get; set; }
     }
 }

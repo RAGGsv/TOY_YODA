@@ -113,6 +113,8 @@ namespace PRUEBAS_LOGIN.Controllers
            
         }
 
+        
+            }
 
 
         public static string ConvertirSha256(string texto)

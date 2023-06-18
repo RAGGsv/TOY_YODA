@@ -10,12 +10,10 @@
 namespace TOY_YODA.Models
 {
     using System;
-    using System.Collections.Generic;
     
-    public partial class usuario
+    public partial class ConsultarPaises_Result
     {
-        public int idusuario { get; set; }
-        public string correo { get; set; }
-        public string clave { get; set; }
+        public int idPais { get; set; }
+        public string nombrePais { get; set; }
     }
 }

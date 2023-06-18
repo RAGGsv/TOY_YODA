@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - TOY YODA</title>
     @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/bootstrap")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
@@ -24,6 +25,7 @@
                 </button>
                 @Html.ActionLink("TOY YODA", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
+            
             <div class="list-group list-group-flash">
                 <ul class="nav navbar-nav navbar-right">
                     <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
@@ -32,8 +34,12 @@
                     <li>@Html.ActionLink("Cerrar Sesion", "CerrarSesion", "Home")</li>
                 </ul>
             </div>
+
+
         </div>
     </div>
+
+
     <div class="container body-content">
         @RenderBody()
         <hr />
