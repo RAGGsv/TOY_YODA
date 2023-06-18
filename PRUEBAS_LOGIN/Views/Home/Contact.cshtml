@@ -4,20 +4,4 @@
 }
 <h2>@ViewBag.Title.</h2>
 
-<div>
 
-    @Html.DropDownList("Pais", new SelectList(ViewBag.data, "idPais", "nombrePais"));
-</div>
-
-
-@model PRUEBAS_LOGIN.Models.Countries
-@{
-    Layout = null;
-}
-<div style="padding:10px;">
-    @using (Html.BeginForm())
-    {
-        <span>Country:</span> @Html.DropDownListFor(m => m.id, Model.pais, "--Please select a country--", new { @class = "btn btn-default" })
-        <br />
-        <br />
-        <button class="btn btn-primary">Submit</button>
