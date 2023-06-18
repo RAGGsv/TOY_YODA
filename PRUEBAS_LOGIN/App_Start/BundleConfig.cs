@@ -25,6 +25,10 @@ namespace PRUEBAS_LOGIN
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            // Render DATATABLE (Ok)
+            bundles.Add(new StyleBundle("~/DataTable").Include(
+                      "~/DataTable/dataTables.bootstrap4.min.cs"));
         }
     }
 }

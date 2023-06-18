@@ -83,6 +83,7 @@ C:\Users\ragco\Source\Repos\TOY_YODA\PRUEBAS_LOGIN\bin\es\System.Web.Razor.resou
 C:\Users\ragco\Source\Repos\TOY_YODA\PRUEBAS_LOGIN\bin\es\System.Web.WebPages.resources.dll
 C:\Users\ragco\Source\Repos\TOY_YODA\PRUEBAS_LOGIN\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\ragco\Source\Repos\TOY_YODA\PRUEBAS_LOGIN\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\ragco\Source\Repos\TOY_YODA\PRUEBAS_LOGIN\obj\Debug\TOY_YODA.csprojAssemblyReference.cache
 C:\Users\ragco\Source\Repos\TOY_YODA\PRUEBAS_LOGIN\obj\Debug\TOY_YODA.csproj.CoreCompileInputs.cache
 C:\Users\ragco\Source\Repos\TOY_YODA\PRUEBAS_LOGIN\obj\Debug\TOY_YODA.csproj.CopyComplete
 C:\Users\ragco\Source\Repos\TOY_YODA\PRUEBAS_LOGIN\obj\Debug\TOY_YODA.dll
