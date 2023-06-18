@@ -9,6 +9,11 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
+
+     
+
+
+
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -19,12 +24,12 @@
                 </button>
                 @Html.ActionLink("TOY YODA", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
+            <div class="list-group list-group-flash">
+                <ul class="nav navbar-nav navbar-right">
                     <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
                     <li>@Html.ActionLink("Clientes", "About", "Home")</li>
                     <li>@Html.ActionLink("Sucursales", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Mis Paises", "CerrarSesion", "Home")</li>
+                    <li>@Html.ActionLink("Cerrar Sesion", "CerrarSesion", "Home")</li>
                 </ul>
             </div>
         </div>
