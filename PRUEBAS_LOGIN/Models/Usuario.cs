@@ -11,7 +11,7 @@ namespace PRUEBAS_LOGIN.Models
         public string Correo { get; set; }
         public string Clave { get; set; }
 
-
+        //COMENTARIO
         public string ConfirmarClave { get; set; }
 
     }
